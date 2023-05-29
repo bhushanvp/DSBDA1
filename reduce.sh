@@ -5,9 +5,10 @@ do
     # echo "$i"
     if [ -d "$i" ]
     then
-        echo "$i"
+        # echo "$i"
         cd "$i"
-        rm *.xlsx
+        # rm *.tbw
+        ls -alh
         cd ..
     fi
 done
